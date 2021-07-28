@@ -1,6 +1,6 @@
 // control + shift + j to open console and paste
 var count = 4000; //number of times to send
-var message = "spam message nr "; //spam message 
+var message = "spam message here By Ravindu Manoj "; //spam message 
 var i = 0;var timer = setInterval(function() {
     var evt = document.createEvent("TextEvent");
     evt.initTextEvent("textInput", true, true, window, message + i, 0, "en-US");
